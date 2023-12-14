@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expenses chart component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/css/style.min.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="chart">
+        <div class="chart__balance">
+          <div class="chart__left">
+            <p class="chart__balance-text">My balance</p>
+            <p class="chart__balance-amount">$392.48</p>
+          </div>
+          <div class="chart__right">
+            <img src="./dist/img/logo.svg" alt="Logo" class="chart__logo" />
+          </div>
+        </div>
+        <div class="chart__spending">
+          <h2 class="chart__title">Spending - Last 7 days</h2>
+          <div class="chart__middle">
+            <ul class="chart__list">
+              <li class="chart__item">
+                <div class="chart__column">
+                  <p class="chart__info-text">$52.4</p>
+                </div>
+                <p class="chart__day">mon</p>
+              </li>
+              <li class="chart__item">
+                <div class="chart__column">
+                  <p class="chart__info-text">$52.4</p>
+                </div>
+                <p class="chart__day">tue</p>
+              </li>
+              <li class="chart__item">
+                <div class="chart__column">
+                  <p class="chart__info-text">$52.4</p>
+                </div>
+                <p class="chart__day">wed</p>
+              </li>
+              <li class="chart__item">
+                <div class="chart__column">
+                  <p class="chart__info-text">$52.4</p>
+                </div>
+                <p class="chart__day">thu</p>
+              </li>
+              <li class="chart__item">
+                <div class="chart__column">
+                  <p class="chart__info-text">$52.4</p>
+                </div>
+                <p class="chart__day">fri</p>
+              </li>
+              <li class="chart__item">
+                <div class="chart__column">
+                  <p class="chart__info-text">$52.4</p>
+                </div>
+                <p class="chart__day">sat</p>
+              </li>
+              <li class="chart__item">
+                <div class="chart__column">
+                  <p class="chart__info-text">$52.4</p>
+                </div>
+                <p class="chart__day">sun</p>
+              </li>
+            </ul>
+          </div>
+          <div class="chart__bottom">
+            <div class="chart__bottom-left">
+              <p class="chart__text chart__text--paddingbottom">
+                Total this month
+              </p>
+              <p class="chart__spending-amount">$213.52</p>
+            </div>
+            <div class="chart__bottom-right">
+              <p class="chart__percent">+2.1%</p>
+              <p class="chart__text chart__text--paddingtop">from last month</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./dist/js/script.min.js"></script>
+  </body>
+</html>
